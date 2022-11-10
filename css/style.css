@@ -135,4 +135,12 @@ body {
     .section-redes {
         width: 50%;
     }
+
+    .resumo li {
+        font-size: 2rem;
+    }
+
+    .main h1 {
+        font-size: 5rem;
+    }
 }
