@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 8rem;
+    padding: 8rem 0;
 }
 
 .perfil {
@@ -38,7 +38,7 @@ body {
     font-size: 3rem;
     font-weight: bold;
     color: white;
-    text-align: center;
+    text-align: start;
     margin-top: 2rem;
 }
 
@@ -74,11 +74,18 @@ body {
     cursor: pointer;
 }
 
+.perfil-proficional {
+    width: 90%;
+
+}
+
 .perfil-proficional h2 {
     margin-top: 2rem;
     color: aliceblue;
     font-size: 2.5rem;
+    text-align: start;
 }
+
 
 .apresentacao p{
     color: white;
@@ -94,9 +101,14 @@ body {
 .download {
     background-image: linear-gradient(45deg, #1c5052, #348e91);
     margin-top: 2rem;
-
     display: inline-block;
     
+}
+
+.resumo h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: .4rem;
 }
 
 @media  screen and (min-width: 900px){
