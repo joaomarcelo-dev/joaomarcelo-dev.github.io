@@ -81,12 +81,19 @@ body {
 
 }
 
+#h2-primari {
+    border-top: none;
+}
+
 .perfil-proficional h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: aliceblue;
     font-size: 2.5rem;
     text-align: start;
+    display: block;
+    padding-top: 2rem;
+    border-top: 2px solid white;
 }
 
 
@@ -110,7 +117,7 @@ body {
 
 .resumo li {
     text-align: start;
-    color: white;
+    color: #e1e6d3;
     font-size: 2rem;
     margin-top: 2rem;
     font-weight: 600;
