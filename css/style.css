@@ -50,7 +50,7 @@ body {
 }
 
 .section-redes h2 {
-    color: aliceblue;
+    color: white;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 3rem;
@@ -87,7 +87,7 @@ body {
 .perfil-proficional h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #fff5d6;
+    color: aliceblue;
     font-size: 2.5rem;
     text-align: start;
     display: block;
