@@ -43,6 +43,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 10px 0;
+    
 }
 
 .div-switch {
@@ -111,7 +112,8 @@ body {
 
 .perfil-proficional {
     width: 90%;
-
+    margin-bottom: 50px;
+    
 }
 
 #h2-primari {
