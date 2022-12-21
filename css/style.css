@@ -176,6 +176,10 @@ body {
         
     }
 
+    .div-switch {
+        justify-content: space-around;
+    }
+
     .perfil {
         width: 30%;
     }
