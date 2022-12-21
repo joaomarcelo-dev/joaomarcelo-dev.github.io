@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-buttons.css">
+    <link rel="stylesheet" href="css/switch-buttons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link href="https: //fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900 & display=swap" rel="stylesheet">
+    <link 
+        href="https: //fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900 & display=swap" 
+        rel="stylesheet"
+    >
+
     <link 
         rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
@@ -20,33 +25,43 @@
 </head>
 <body>
     <div class="main">
+        <div class="div-switch">
+            <div></div>
+            <div>
+                <h2 class="text-darkmode">DarkMode:</h2>
+                <!-- Rounded switch -->
+                <label class="switch">
+                    <input type="checkbox" class="check">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
         <img class="perfil" src="http://github.com/joaomarcelo-dev.png" alt="">
 
         <h1>João Marcelo</h1>
 
         <section class="section-redes">
 
-            <h2>Redes sociais:</h2>
 
             <div class="div-buttons">
                 <a href="https://www.facebook.com/profile.php?id=100014247947465">
-                    <Button class="button-redes facebook">Facebook <i class="fa-brands fa-facebook"></i></Button>
+                    <Button class="button-redes facebook"><i class="fa-brands fa-facebook"></i></Button>
                 </a>
     
                 <a href="https://www.instagram.com/joao_marcelo_r35/">
-                    <Button class="button-redes instagram">Instagram <i class="fa-brands fa-instagram"></i></Button>
+                    <Button class="button-redes instagram"><i class="fa-brands fa-instagram"></i></Button>
                 </a>   
     
                 <a href="https://www.linkedin.com/in/jo%C3%A3o-marcelo-65b07623b">
-                    <Button class="button-redes linkedin">Linkedin <i class="fa-brands fa-linkedin"></i></Button>
+                    <Button class="button-redes linkedin"><i class="fa-brands fa-linkedin"></i></Button>
                 </a>
     
                 <a href="https://github.com/joaomarcelo-dev">
-                    <Button class="button-redes github">Github <i class="fa-brands fa-github"></i></Button>
+                    <Button class="button-redes github"><i class="fa-brands fa-github"></i></Button>
                 </a>
     
                 <a href="https://wa.me/qr/YE66C7WFWNHYB1">
-                    <Button class="button-redes whatsapp">Whatsapp <i class="fa-brands fa-whatsapp"></i></Button>
+                    <Button class="button-redes whatsapp"><i class="fa-brands fa-whatsapp"></i></Button>
                 </a> 
             </div>
         </section>
@@ -57,7 +72,8 @@
                 <p>
                     Olá, meu nome é João Marcelo, tenho mais de 18 anos
                     e estou à procura de uma oportunidade de emprego na área de desenvolvimento WEB 😉👨‍💻.
-                    Aqui está o botão para fazer o download do meu currículo: <br>
+                    Aqui está o botão para fazer o download do meu currículo: <br> <br>
+                    👇👇👇👇👇👇
                 </p>
                 <a href="documents/Modelo Básico de Currículo.pdf" download="">
                     <button class="button-redes download">Download <i class="fa-solid fa-download"></i></button>
@@ -87,5 +103,6 @@
             </div>
         </section>
     </div>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
