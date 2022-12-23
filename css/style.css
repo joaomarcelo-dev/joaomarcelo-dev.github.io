@@ -157,6 +157,10 @@ body {
     padding: 10px;
 }
 
+.download:hover {
+    animation: none;
+}
+
 .resumo h2 {
     margin-top: 40px;
 }
