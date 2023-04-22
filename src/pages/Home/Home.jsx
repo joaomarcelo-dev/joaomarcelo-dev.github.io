@@ -15,6 +15,7 @@ import logoLinkedin from '../../assets/🦆 icon _linkedin outlined_.svg'
 import imgPortifolio from '../../assets/projects/portifólio/Captura de tela de 2023-03-25 15-15-05.png'
 import imgBotDiscord from '../../assets/projects/botDiscord/meta-image.png';
 import imgCasaDeCambio from '../../assets/projects/cadaDeCambio/Captura de tela de 2023-04-22 19-36-11.png'
+import imgUploadFiles from '../../assets/projects/uploadFiles/Captura de tela de 2023-04-22 20-04-40.png'
 // -------------------------------------------------------------------- //
 export default function Home() {
     return (
@@ -72,8 +73,6 @@ export default function Home() {
                                 description="Meu primeiro portifólio, inteiramente feito em Vanilla JS"
                             />
 
-                            {/* <CardProjects /> */}
-
                             <CardProjects
                                 link='https://github.com/joaomarcelo-dev/discorBot'
                                 img={imgBotDiscord}
@@ -87,6 +86,14 @@ export default function Home() {
                                 title="Casa de Cambio"
                                 description='Exercicio "Casa de Cambio" proposto pela Trybe.'
                             />
+
+                            <CardProjects
+                                link='https://joaomarcelo-dev.github.io/upload-files/'
+                                img={imgUploadFiles}
+                                title="Upload de arquivos"
+                                description='Pojeto base para upload de arquivos'
+                            />
+
                         </div>
                     </section>
                 </div>
