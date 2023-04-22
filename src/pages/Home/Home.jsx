@@ -66,7 +66,7 @@ export default function Home() {
                         <h3>Meus projetos</h3>
                         <div className='projcts'>
                             <CardProjects
-                                link='https://github.com/joaomarcelo-dev/joaomarcelo-dev'
+                                link='https://joaomarcelo-dev.github.io/joaomarcelo-dev/'
                                 img={imgPortifolio}
                                 title="Portifólio antigo"
                                 description="Meu primeiro portifólio, inteiramente feito em Vanilla JS"
