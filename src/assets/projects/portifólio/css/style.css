@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* html {
+    font-size: 62.5%;
+    --primary-color: #171422;
+    --secundary-color: #171426;
+    --color-white: #fff;
+    --color-border: skyblue;
+    --color-aliceblue: aliceblue;
+    --color-li: #b9c9b6;
+} */
+
+html {
+    font-size: 62.5%;
+    --primary-color: #868585;
+    --secundary-color: #f3f3f3;
+    --color-white: #0f1013;
+    --color-border: #000000;
+    --color-aliceblue: #1b3486;
+    --color-li-text: #23709c;
+}
+
+body {
+    transition: all .4s ease-in-out;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    transition: all .4s ease-in-out;
+    width: 100vw;
+    background-color: var(--secundary-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    
+}
+
+.div-switch {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:0px 20px 30px 0px;
+}
+
+.text-darkmode {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-white);
+    margin-bottom: 6px;
+}
+
+.perfil {
+    width: 70%;
+    border-radius: 50%;
+    border: 3px solid var(--color-border);
+    padding: 0.3rem;
+    transition: all .2s ease-in-out;
+    transform: translateY(0);
+    animation: perfilanimate 4s ease-in-out infinite;
+}
+
+.main h1 {
+    transition: all .4s ease-in-out;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-white);
+    text-align: start;
+    margin-top: 2rem;
+
+}
+
+.section-redes {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.button-redes {
+    transition: all .4s ease-in-out;
+    padding: 5px 0;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: bold;
+    width: 20%;
+    border: none;
+    margin-bottom: 9px;
+}
+
+.button-redes i {
+    color: white;
+}
+
+.button-redes:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    transform: translateY(-4px);
+ 
+    
+}
+
+.perfil-proficional {
+    width: 90%;
+    margin-bottom: 50px;
+    
+}
+
+#h2-primari {
+    border-top: none;
+    color: var(--color-white);
+    transition: all .4s ease-in-out;
+}
+
+.perfil-proficional h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--color-aliceblue);
+    font-size: 2.5rem;
+    text-align: start;
+    display: block;
+    border-top: 2px solid var(--color-white);
+    padding-top: 10px;
+    transition: all .4s ease-in-out;
+}
+
+
+.apresentacao p{
+    color: var(--color-white);
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 11px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    transition: all .4s ease-in-out;
+}
+
+.download {
+    background-image: linear-gradient(45deg, #1c5052, #348e91);
+    margin-top: 20px;
+    display: inline-block;
+    transform: translateY(0);
+    animation: flootbutton 2.5s ease-in-out infinite;
+    width: 80%;
+    padding: 10px;
+}
+
+.download:hover {
+    animation: none;
+}
+
+.resumo h2 {
+    margin-top: 40px;
+}
+
+.resumo li {
+    text-align: start;
+    color: var(--color-li);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+}
+
+@media  screen and (min-width: 900px){
+    .main {
+        max-width: 1080px;
+        
+    }
+
+    .div-switch {
+        justify-content: space-around;
+    }
+
+    .perfil {
+        width: 30%;
+    }
+
+    .section-redes {
+        width: 50%;
+    }
+
+    .apresentacao p {
+        font-size: 2rem;
+    }
+
+    .resumo li {
+        font-size: 2rem;
+    }
+
+    .main h1 {
+        font-size: 5rem;
+    }
+}
+
+@keyframes perfilanimate {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes flootbutton  {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
