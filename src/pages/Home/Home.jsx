@@ -94,7 +94,7 @@ export default function Home() {
                                 link='https://joaomarcelo-dev.github.io/upload-files/'
                                 img={imgUploadFiles}
                                 title="Upload de arquivos"
-                                description='Pojeto base para upload de arquivos'
+                                description='Projeto base para upload de arquivos'
                             />
                         </div>
                     </section>
