@@ -67,6 +67,7 @@ export default function Home() {
                         <h3>Meus projetos</h3>
                         <div className='projcts'>
                             <CardProjects
+                                linkRepo="https://github.com/joaomarcelo-dev/joaomarcelo-dev"
                                 link='https://joaomarcelo-dev.github.io/joaomarcelo-dev/'
                                 img={imgPortifolio}
                                 title="Portifólio antigo"
@@ -74,13 +75,14 @@ export default function Home() {
                             />
 
                             <CardProjects
-                                link='https://github.com/joaomarcelo-dev/discorBot'
+                                linkRepo='https://github.com/joaomarcelo-dev/discorBot'
                                 img={imgBotDiscord}
                                 title="Bot Discord"
                                 description="Meu primeiro bot de discord utilizando a lib do Discord.js"
                             />
 
                             <CardProjects
+                                linkRepo="https://github.com/joaomarcelo-dev/casa-de-cambio"
                                 link='https://joaomarcelo-dev.github.io/casa-de-cambio/'
                                 img={imgCasaDeCambio}
                                 title="Casa de Cambio"
@@ -88,12 +90,12 @@ export default function Home() {
                             />
 
                             <CardProjects
+                                linkRepo="https://github.com/joaomarcelo-dev/upload-files"
                                 link='https://joaomarcelo-dev.github.io/upload-files/'
                                 img={imgUploadFiles}
                                 title="Upload de arquivos"
                                 description='Pojeto base para upload de arquivos'
                             />
-
                         </div>
                     </section>
                 </div>

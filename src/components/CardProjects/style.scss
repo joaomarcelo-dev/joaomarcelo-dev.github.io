@@ -4,6 +4,7 @@
 }
 
 .container-card-projects {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +16,7 @@
     margin: 7px;
     border-radius: 6px;
     transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .container-card-projects:hover {
@@ -51,6 +53,47 @@
     font-size: 0.6rem;
 }
 
+.infos-card-project {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.infos-card-project h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.div-buttons-card a button{
+    width: 100%;
+    padding: 9px;
+    margin: 3px;
+    border: none;
+    border-radius: 6px;
+    background-color: #13814e;
+    font-size: 13px;
+    transition: all 0.1s ease-in-out;
+    color: #fff;
+}
+
+.div-buttons-card a button:hover {
+    background-color: #28b69e;
+}
+
+.container-card-projects:hover .infos-card-project {
+    top: 0;
+}
+
 @media screen and (min-width:600px){
     .container-card-projects {
         width: 200px;
@@ -72,13 +115,24 @@
         height: 290px;
         margin: 12px;
     }
-
     .description-project h4 {
         font-size: 1.3rem;
     }
-
+    
     .description-project p {
         font-size: 1rem;
+    }
+    
+    .infos-card-project {
+        gap: 22px;
+    }
+
+    .infos-card-project h4 {
+        font-size: 22px;
+    }
+    
+    .div-buttons-card a button {
+        font-size: 18px;
     }
 }
 
