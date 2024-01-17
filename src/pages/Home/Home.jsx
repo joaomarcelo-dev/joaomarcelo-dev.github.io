@@ -2,20 +2,20 @@ import './style.scss';
 import Header from '../../components/Header/Header';
 import CardProjects from '../../components/CardProjects/CardProjects';
 
-import imgInitMain from '../../assets/compilter-img.svg';
-import rectangle from '../../assets/rectangle.svg';
-import imgProfile from '../../assets/117828396.jpeg';
-import imgContact from '../../assets/contactImg.svg';
+import imgInitMain from '/assets/compilter-img.svg';
+import rectangle from '/assets/rectangle.svg';
+import imgProfile from '/assets/117828396.jpeg';
+import imgContact from '/assets/contactImg.svg';
 
-import logoTwitter from '../../assets/🦆 icon _twitter outlined_.svg';
-import logoIntagram from '../../assets/🦆 icon _instagram outlined_.svg';
-import logoLinkedin from '../../assets/🦆 icon _linkedin outlined_.svg'
+import logoTwitter from '/assets/icon_twitter.svg';
+import logoIntagram from '/assets/icon_instagram.svg';
+import logoLinkedin from '/assets/icon_linkedin.svg'
 
 // =================== Img dos projetos =============================== //
-import imgPortifolio from '../../assets/projects/portifólio/Captura de tela de 2023-03-25 15-15-05.png'
-import imgBotDiscord from '../../assets/projects/botDiscord/meta-image.png';
-import imgCasaDeCambio from '../../assets/projects/cadaDeCambio/Captura de tela de 2023-04-22 19-36-11.png'
-import imgUploadFiles from '../../assets/projects/uploadFiles/Captura de tela de 2023-04-22 20-04-40.png'
+import imgPortifolio from '/assets/projects/portifólio/Captura de tela de 2023-03-25 15-15-05.png'
+import imgBotDiscord from '/assets/projects/botDiscord/meta-image.png';
+import imgCasaDeCambio from '/assets/projects/cadaDeCambio/Captura de tela de 2023-04-22 19-36-11.png'
+import imgUploadFiles from '/assets/projects/uploadFiles/Captura de tela de 2023-04-22 20-04-40.png'
 // -------------------------------------------------------------------- //
 export default function Home() {
     return (

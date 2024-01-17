@@ -1,6 +1,6 @@
 import './style.scss';
-import logoPng from '../../assets/logo-header.jpg'
-import imgMenu from '../../assets/menu.svg'
+import logoPng from '/assets/logo-header.jpg'
+import imgMenu from '/assets/menu.svg'
 
 export default function Home() {
     return (
